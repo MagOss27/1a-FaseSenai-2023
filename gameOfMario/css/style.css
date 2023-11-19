@@ -80,3 +80,12 @@
       right: 100%;  
     }
 }
+
+.distance-display {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    z-index: 1;
+}
