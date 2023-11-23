@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de Votos</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Contagem de Votos</h1>
+        <div class="input-container">
+            <label for="numEleitores">Quantidade de Eleitores:</label>
+            <input type="number" id="numEleitores" placeholder="Digite a quantidade">
+        </div>
+        <div class="input-container">
+            <label for="votosCandidatoUm">Votos no Candidato Um:</label>
+            <input type="number" id="votosCandidatoUm" placeholder="Quantidade de votos">
+        </div>
+        <div class="input-container">
+            <label for="votosCandidatoDois">Votos no Candidato Dois:</label>
+            <input type="number" id="votosCandidatoDois" placeholder="Quantidade de votos">
+        </div>
+        <div class="input-container">
+            <label for="votosBranco">Votos Brancos:</label>
+            <input type="number" id="votosBranco" placeholder="Quantidade de votos">
+        </div>
+        <div class="input-container">
+            <label for="votosNulos">Votos Nulos:</label>
+            <input type="number" id="votosNulos" placeholder="Quantidade de votos">
+        </div>
+        <button onclick="calcularPercentuais()">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
