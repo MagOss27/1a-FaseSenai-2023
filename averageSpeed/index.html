@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Velocidade Média</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Velocidade Média</h1>
+        <div class="input-container">
+            <label for="distancia">Distância Percorrida (em Km):</label>
+            <input type="number" id="distancia" placeholder="Digite a Distância">
+        </div>
+
+        <div class="input-container">
+            <label for="tempo">Tempo (em horas):</label>
+            <input type="number" id="tempo" placeholder="Digite o Tempo">
+        </div>
+
+        <button onclick="calcularVelocidadeMedia()">Calcular</button>
+        
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
