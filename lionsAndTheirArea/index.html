@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Área Ocupada</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Área Ocupada</h1>
+        <div class="form">
+            <label for="inputCasais">Quantidade de Casais:</label>
+            <input id="inputCasais" type="number" placeholder="Insira o número de casais">
+
+            <label for="inputAreaSolo">Área do Solo por Indivíduo (em m²):</label>
+            <input id="inputAreaSolo" type="number" placeholder="Insira a área do solo por indivíduo">
+
+            <button onclick="calcularArea()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
