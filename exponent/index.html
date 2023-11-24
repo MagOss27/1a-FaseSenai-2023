@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Expoente</title>
+</head>
+<body>
+
+    <div id="container">
+        <div class="calculator">
+            <h1>Calculadora de Expoente</h1>
+            <div class="input-section">
+                <label for="numeroBase">Número Base:</label>
+                <input id="numeroBase" type="number" placeholder="Insira o número base" style="text-align: center">
+            </div>
+            <div class="input-section">
+                <label for="numeroExpoente">Expoente:</label>
+                <input id="numeroExpoente" type="number" placeholder="Insira o expoente" style="text-align: center">
+            </div>
+
+            <button onclick="calcularValor()">Calcular</button>
+            <p id="resultado"></p>
+
+            <table id="tabelaResultados">
+                <caption>Resultados das Operações</caption>
+                <thead>
+                    <tr>
+                        <th>Base</th>
+                        <th>Expoente</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoTabela">
+                    <!-- Os resultados serão adicionados aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
