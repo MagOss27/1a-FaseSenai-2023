@@ -1,0 +1,186 @@
+html {
+
+    height: 100%;
+}
+
+body {
+
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#left {
+
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke
+}
+
+#left-top {
+
+    height: 15%;
+    width: 100%;
+}
+
+#left-title {
+
+    height: 10%;
+    width: 100%;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#left-icons {
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+
+    height: 70%;
+    width: auto;
+    border: 0px;
+    cursor: pointer;
+}
+
+#left-inputs {
+
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#labelcima {
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+#input1 {
+
+    height: 15%;
+    width: 70%;
+    background-color: #EBE8E7;
+    border-radius: 5px;
+    border: 0px;
+    margin: 2%;
+    padding-left: 3%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#input2 {
+
+    height: 15%;
+    width: 70%;
+    background-color: #EBE8E7;
+    border-radius: 5px;
+    border: 0px;
+    margin: 2%;
+    padding-left: 3%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#labelbaixo {
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+}
+
+#button {
+
+    width: 35%;
+    height: 20%;
+    border-radius: 45px;
+    background-color: #E8382F;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin-top: 2%;
+}
+
+#button:hover {
+
+    cursor: pointer;
+}
+
+#left-bottom {
+
+    height: 15%;
+    width: 100%;
+}
+
+#right {
+
+    height: 100%;
+    width: 50%;
+    background-color: #E8382F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonSigIn {
+
+    width: 35%;
+    height: 9%;
+    border-radius: 45px;
+    border-color: white;
+    font-size: 25px;
+    color: white;
+    background-color: #E8382F;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px white;
+}
+
+#buttonSigIn:hover {
+
+    background-color: white;
+    color: #E8382F;
+    cursor: pointer;
+}
+
+#textOne {
+
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#textTwo {
+
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+}
