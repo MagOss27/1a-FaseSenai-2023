@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Média de Notas</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="custom-form">
+            <label for="notaUm">Digite a Sua Nota da Atividade Individual (peso 1):</label>
+            <input id="notaUm" type="number" placeholder="Primeira nota" style="text-align: center;">
+
+            <label for="notaDois">Digite a Sua Nota do Seminário em Equipe (peso 1):</label>
+            <input id="notaDois" type="number" placeholder="Segunda nota" style="text-align: center;">
+
+            <label for="notaTres">Digite a Sua Nota do Projeto final (peso 3):</label>
+            <input id="notaTres" type="number" placeholder="Terceira nota" style="text-align: center;">
+
+            <button onclick="calcularMedia()">Calcular Média</button>
+
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body> 
