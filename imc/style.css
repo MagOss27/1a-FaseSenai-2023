@@ -1,0 +1,68 @@
+/* Reset de estilos */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#93eb87, rgb(224, 255, 228));
+}
+
+.tableIMC {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(#93eb87, rgb(224, 255, 228));
+    background-color: #fff;
+    text-align: center;
+}
+
+.tableIMC label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.tableIMC input[type="number"],
+.tableIMC button {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.tableIMC input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+
+}
+
+.tableIMC button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10%;
+}
+
+.tableIMC button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    color: green;
+}
