@@ -105,3 +105,17 @@ const numeros = {
     'noventa e nove': { ingles: 'Ninety-nine', espanhol: 'Noventa y nueve' },
     'cem': { ingles: 'One hundred', espanhol: 'Cien' }
 };
+
+function TraduzNumero() {
+    let nomeNumero = inputNomeNumero.value.toLowerCase(); // Convertendo para minúsculas
+
+    if (numeros.hasOwnProperty(nomeNumero)) {
+        mensagemUser.textContent = 'Aqui está a sua tradução:';
+        traducaoIngles.textContent = numeros[nomeNumero].ingles;
+        traducaoEspanhol.textContent = numeros[nomeNumero].espanhol;
+    } else {
+        mensagemUser.textContent = 'Por favor, digite o nome de um número válido.';
+        traducaoIngles.textContent = '';
+        traducaoEspanhol.textContent = '';
+    }
+}
