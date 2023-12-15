@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha no topo */
+    height: 100vh;
+    background-color: #542ca0;
+    padding-top: 50px; /* Adiciona espaço no topo */
+    overflow: hidden;
+}
+
+#container {
+    background-color: #806cf0;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.opcoes div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinha para o centro */
+}
+
+input[type="radio"] {
+    margin-left: 10px; /* Adiciona margem à esquerda do botão */
+}
+
+#resultado{
+  padding-top: 20px;
+    font-weight: bold;
+}

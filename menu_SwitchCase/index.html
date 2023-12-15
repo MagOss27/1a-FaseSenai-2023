@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu de Opções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Menu de Opções:</h1>
+
+        <div class="opcoes">
+            <div>
+                <label for="opcaoA">A) Falar com a atendente</label>
+                <input type="radio" id="opcaoA" name="opcao" value="a" onclick="escolhaOpcao('a')">
+            </div>
+            <div>
+                <label for="opcaoB">B) Falar com o RH</label>
+                <input type="radio" id="opcaoB" name="opcao" value="b" onclick="escolhaOpcao('b')">
+            </div>
+            <div>
+                <label for="opcaoC">C) Falar com o gerente</label>
+                <input type="radio" id="opcaoC" name="opcao" value="c" onclick="escolhaOpcao('c')">
+            </div>
+            <div>
+                <label for="opcaoD">D) Sair</label>
+                <input type="radio" id="opcaoD" name="opcao" value="d" onclick="escolhaOpcao('d')">
+            </div>
+        </div>
+
+        <div id="resultado"></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
