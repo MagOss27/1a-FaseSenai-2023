@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 12px;
+    /* Reduzindo o padding para um tamanho mais equilibrado */
+    border-radius: 8px;
+    /* Aumentando o raio da borda para um visual mais arredondado */
+    border: 2px solid #ccc;
+    /* Aumentando a espessura da borda */
+    font-size: 16px;
+    /* Definindo o tamanho da fonte */
+    outline: none;
+    /* Removendo a borda ao focar no input */
+    transition: border-color 0.3s ease;
+    /* Adicionando uma transição suave para a borda */
+}
+
+/* Estilizando o input quando estiver em foco */
+input[type="text"]:focus {
+    border-color: #4CAF50;
+    /* Mudando a cor da borda ao focar */
+}
+
+#resultado {
+    display: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    /* Tamanho maior de fonte para o resultado */
+    color: green;
+    /* Cor do texto para número par */
+}
