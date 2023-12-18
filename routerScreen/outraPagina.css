@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o texto de boas-vindas */
+.welcome-text {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilizando a mensagem de parabéns */
+.congrats-text {
+    color: green;
+    font-style: italic;
+}
+
+/* Estilizando um link para voltar à página de login */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando a área de login */
+.login-section {
+    margin-top: 50px; /* Espaço entre a mensagem de boas-vindas e a área de login */
+}
