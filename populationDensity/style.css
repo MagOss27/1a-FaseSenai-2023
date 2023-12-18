@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+#container {
+    width: 50%;
+    /* Adjusted width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table {
+    background-color: #10ecbd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 50%;
+    padding: 8px;
+    /* Adjusted padding */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* Adjusted margin */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Center the button horizontally */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result styles */
+#divResultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .table {
+        padding: 15px;
+    }
+
+    input[type="number"] {
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
