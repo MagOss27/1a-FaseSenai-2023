@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+#container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.table {
+    background-color: rgb(231, 196, 196);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rebeccapurple;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Corrigido aqui */
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px; /* Aumentando o tamanho do botão */
+    background-color: bisque;
+    color: black; /* Definindo a cor do texto como preto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Adicionando transição para a cor de fundo e tamanho */
+    font-size: 16px; /* Tamanho padrão da fonte */
+}
+
+button:hover {
+    background-color: #ffa500; /* Mudando a cor quando o cursor passa sobre o botão */
+    padding: 13px 23px; /* Ajustando o tamanho no hover */
+    color: black; /* Mantendo a cor do texto como preto no hover */
+    font-size: 18px; /* Aumentando o tamanho da fonte no hover */
+}
