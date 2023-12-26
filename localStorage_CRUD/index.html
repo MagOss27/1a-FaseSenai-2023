@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Produtos - CRUD</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="esquerda">
+            <div class="titulo-esquerda">
+                <h1>📋📋 Cadastro de Produtos 📋📋</h1>
+            </div>
+
+            <div class="tabela-esquerda">
+                <div class="cadastramento">
+                    <label class="labelCadastro">Nome do Produto:</label>
+                    <input class="inputCadastro" type="text" id="inptProduto">
+                    <label class="labelCadastro">Marca do Produto:</label>
+                    <input class="inputCadastro" type="text" id="inptMarca">
+                    <label class="labelCadastro">Valor do Produto:</label>
+                    <input class="inptCadastramento" type="text" id="inptValor">
+                    <button class="botaoCadastrarProduto" onclick="cadastrarProduto()">Cadastrar Produto</button>
+                </div>
+                <div class="inptsPesquisa">
+                    <label class="labelPesquisa">Produto que Deseja Pesquisar:</label>
+                    <input placeholder="Produto" class="inputPesquisa" type="text" id="produtoPesquisa">
+                    <input placeholder="Marca" class="inputPesquisa" type="text" id="marcaPesquisa" readonly>
+                    <input placeholder="Valor" class="inputPesquisa" type="text" id="valorPesquisa">
+                </div>
+                <div class="botoesPesquisa">
+                    <button class="botaoPesquisa" onclick="pesquisar()">Pesquisar</button>
+                    <button class="botaoPesquisa" onclick="limparPesquisa()">Limpar</button>
+                    <button class="botaoPesquisa" onclick="editar()">Atualizar</button>
+                    <button class="botaoPesquisa" onclick="listar()">Listar</button>
+                </div>
+                <div class="exclusao">
+                    <label class="labelExclusao">Produto que Deseja Excluir:</label>
+                    <input class="inputExclusao" type="text" id="excluirProduto">
+                    <button class="botaoExcluir" onclick="excluir()">Excluir Produto</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="direita">
+            <div class="tabela-direita">
+                <div class="titulo-tabela-direita">
+                    <h2>📇📇 Lista de Produtos 📇📇</h2>
+                </div>
+                <div id="lista"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
