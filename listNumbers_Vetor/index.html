@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Números</title>
+</head>
+<body>
+
+    <div id="container">
+        <div class="table">
+            <div class="title">
+                <h1>Listagem de Números:</h1>
+            </div>
+
+            <label>Coloque ao lado quantos números deseja que apareça na tela</label>
+            <input id="numeracaoVetor" type="number">
+            <button onclick="exibirNumeros()">Exibir Números</button>
+            <button onclick="limparNumeros()">Limpar Números</button>
+
+            <div id="listaNumeros" class="numeros"></div> <!-- Div para exibir os números -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
