@@ -1,0 +1,73 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo e container principal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(67, 137, 150);
+}
+
+#container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(#87ceeb, #E0F6FF);
+}
+
+/* Estilos para o título da tabela */
+.table h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+/* Estilos para rótulo e campo de entrada */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para a lista de frutas */
+#result {
+    margin-top: 20px;
+}
+
+#result p {
+    margin-bottom: 5px;
+    color: #555;
+}
