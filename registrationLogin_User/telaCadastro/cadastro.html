@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro de Usuário</title>
 </head>
 <body>
@@ -17,9 +18,11 @@
             <label>Email:</label>
             <input id='emailCadastro' type="email" placeholder="Escreva seu Email" style="text-align: center;">
             <label>Senha:</label>
-            <input id="senhaCadastro" type='password' placeholder="Escreva sua Senha" style="text-align: center;">
-                <span id="showPasswordCadastro" class="toggle-password" style="cursor:pointer;" onclick="togglePasswordCadastro()">👁️</span>
-
+            <div style="position: relative;">
+                <input id="senhaCadastro" type='password' placeholder="Escreva sua Senha" style="text-align: center;">
+                <span id="showPasswordCadastro" class="toggle-password" style="position: absolute; top: 50%; right: 5px; transform: translateY(-50%); cursor: pointer;" onclick="togglePasswordCadastro()">👁️</span>
+            </div>
+            
             <div class="buttonCadastro">
                 <button id="logCadastro" onclick="cadastrarUser()">Cadastrar Usuário</button>
             </div>
@@ -27,7 +30,7 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 
 </body>
 </html>

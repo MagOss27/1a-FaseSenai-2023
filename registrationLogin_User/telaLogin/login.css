@@ -1,0 +1,74 @@
+/* Estilo para o body (cor de fundo, fonte, etc.) */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#87ceeb, #E0F6FF);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o contêiner principal */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para a tabela (formulário) */
+.table {
+    background-color: #62c0d8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Estilo para o título do formulário */
+.title h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para os campos de entrada */
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para o botão de cadastro */
+.buttonLogin button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonLogin button:hover {
+    background-color: #0056b3;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field #showPasswordCadastro {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}

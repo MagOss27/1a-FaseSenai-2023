@@ -1,0 +1,64 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#87ceeb, #E0F6FF);
+}
+
+/* Estilo para o contêiner */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para a tabela */
+.table {
+    background-color: #62c0d8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.title h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os botões */
+.back-button,
+.profile-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.profile-button:hover {
+    background-color: #218838;
+}
