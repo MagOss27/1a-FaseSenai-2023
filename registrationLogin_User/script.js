@@ -78,7 +78,7 @@ function logarUser() {
     }
 }
 
-
+//Função do olho na Tela de Cadastro:
 function togglePasswordCadastro() {
     let senhaInput = document.getElementById('senhaCadastro');
     let showPassword = document.getElementById('showPasswordCadastro');
@@ -92,6 +92,7 @@ function togglePasswordCadastro() {
     }
 }
 
+//Função do olho na Tela de Login:
 function togglePasswordLogin() {
     let senhaInput = document.getElementById('senhaLog');
     let showPassword = document.getElementById('showPasswordCadastro');
@@ -105,8 +106,14 @@ function togglePasswordLogin() {
     }
 }
 
-// Função para logout
+
+//Redirecionar para Página de Login
 function logout() {
     localStorage.removeItem('isLoggedIn');
     window.location.href = '../telaLogin/login.html';
+}
+
+//Redirecionar para Página de Perfil
+function redirectToProfile() {
+    window.location.href = '../telaPerfil/perfil.html';
 }
